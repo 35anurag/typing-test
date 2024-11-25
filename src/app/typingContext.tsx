@@ -1,24 +1,9 @@
 "use client";
-//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
 import { createContext, useContext, useState } from "react";
 
 type TypingContextProviderProps = {
   children: React.ReactNode;
 };
-
-// type TypingContext = {
-//   selectedTime: number,
-//   setSelectedTime: React.Dispatch<React.SetStateAction<number>>,
-//   inputTextarea: string,
-//   setInputTextarea: React.Dispatch<React.SetStateAction<string>>,
-//   isTypingStarted: boolean,
-//   setIsTypingStarted: React.Dispatch<React.SetStateAction<boolean>>,
-//   typingError: number,
-//   setTypingError: React.Dispatch<React.SetStateAction<number>>,
-//   timeLeft: number,
-//   setTimeLeft: React.Dispatch<React.SetStateAction<number>>,
-
-// };
 
 export const TypingContext = createContext<any | null>(null);
 
